@@ -7,7 +7,9 @@ provisioning: terraform
 
 infrastructure:
   templates:
-    - file: infrastructure/
+    - file: "infrastructure/*"
+      rendering_engine: hcl
+      template_language: terraform
 
 inputs:
   - name: VpcName
