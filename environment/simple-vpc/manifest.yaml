@@ -1,0 +1,18 @@
+schema: environment-1
+name: simple-vpc-tf
+display_name: Simple VPC Environment (Terraform)
+description: Creates a VPC using Terraform
+
+provisioning: terraform
+
+infrastructure:
+  templates:
+    - file: infrastructure/
+
+inputs:
+  - name: VpcName
+    description: Name for the VPC
+    type: string
+  - name: VpcCIDR
+    description: CIDR for the VPC
+    type: string
