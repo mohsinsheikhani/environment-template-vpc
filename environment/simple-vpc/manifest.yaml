@@ -3,11 +3,9 @@ name: simple-vpc-tf
 display_name: Simple VPC Environment (Terraform)
 description: Creates a VPC using Terraform
 
-provisioning: terraform
-
 infrastructure:
   templates:
-    - file: "infrastructure/*"
+    - file: "*"
       rendering_engine: hcl
       template_language: terraform
 
