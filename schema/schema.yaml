@@ -1,0 +1,11 @@
+type: environment
+version: 1
+inputs:
+  VpcName:
+    type: string
+    description: "Name for the VPC"
+    default: "simple-vpc-tf"
+  VpcCIDR:
+    type: string
+    description: "CIDR block for the VPC"
+    default: "10.0.0.0/16"
