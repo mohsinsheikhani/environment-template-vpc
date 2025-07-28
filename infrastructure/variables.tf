@@ -1,7 +1,7 @@
 variable "environment" {
   type = object({
     name   = string
-    inputs = object({ VpcCIDR = string, VpcName = string })
+    inputs = object({ vpc_cidr = string, vpc_name = string })
   })
 }
 
