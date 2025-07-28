@@ -11,7 +11,7 @@ schema:
         vpc_name:
           type: string
           description: "The name for your VPC"
-          default: simple-vpc-tf
+          default: "simple-vpc-tf"
         vpc_cidr:
           type: string
           description: "This CIDR range for your VPC"
