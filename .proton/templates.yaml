@@ -1,0 +1,4 @@
+templates:
+  - name: simple-vpc-tf
+    type: environment
+    subdirectory: environment-templates/vpc-env/v1
